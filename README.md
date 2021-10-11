@@ -1,11 +1,11 @@
-# ionisation-fraction
+## Code used in "Formation and Evolution of the Cosmic Microwave Background: Recombination"
 
 This repository contains the Mathematica notebooks used for computing the different cases of the ionisation fraction in my bachelor thesis along with the input files that were used for CLASS. Note that for running CLASS, the whole code has to be downloaded, which can be done here: http://class-code.net.
 
 In particular,
 
 - **freezeout_kt.nb**     was used in calculating the residual ionisation according to the approximations in Kolb and Turner (1994) in Section 3.3 of my thesis,
-- **efraction.nb**        was used for the computation of the ionisation fraction using the photon temperature and without reionisation, shown in Section 4.2 of my thesis,
+- **efraction.nb**        was used for the computation of the ionisation fraction using the photon temperature and without reionisation, shown in Section 4.2 of my thesis, includes code used for comparison of expansion rate and interaction rate as seen in Chapter 3,
 - **efrac_and_Tb.nb**     contains the code for the solution of the ODEs for the ionisation fraction and the baryon temperature together, shown in Section 4.4 of my thesis,
 - **efraction_reio.nb**   contains the same code as "efraction.nb" but this time reionisation is taken into account, shown in Chapter 5 of my thesis,
 
